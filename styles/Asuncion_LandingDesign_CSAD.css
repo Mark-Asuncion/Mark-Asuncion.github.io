@@ -1,0 +1,40 @@
+body {
+    margin: auto;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+ul {
+    list-style: circle;
+}
+ul > ul {
+    list-style: disc;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+.header {
+    height: 10em;
+    margin: 0 0 3em;
+    padding: 1.5em 2em 2em;
+    background-color: #1B262C;
+    color: white;
+}
+.header > h1 {
+    text-align: center;
+}
+.content {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.content > a {
+    padding: 10px 15px;
+    text-align: center;
+    color: #1B262C;
+    border: 2px solid #1B262C;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.content > a:hover {
+    font-size: 1.1em;
+}

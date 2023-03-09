@@ -1,0 +1,44 @@
+body {
+    margin: auto;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+ul {
+    list-style: circle;
+}
+ul > ul {
+    list-style: disc;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+.header {
+    background-color: #1B262C;
+    color: white;
+    margin: 0 0 3em;
+    padding: 1.5em 0 2em;
+}
+.header > h1 {
+    text-align: center;
+}
+.content {
+    width: 70%;
+    margin: auto;
+}
+
+.content > * {
+    padding: 1.5em;
+}
+
+.content > * > h1 {
+    letter-spacing: 3px;
+}
+
+.content > * > h2 {
+    margin-bottom: 3px;
+}
+.content > * > p {
+    margin-top: 3px;
+}
+.content > * > .subtitle {
+    font-size: .8em;
+}
